@@ -1,4 +1,5 @@
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const express = require('express');
 const fs = require('fs');
 const helmet = require('helmet');
@@ -15,6 +16,7 @@ const app = express();
 server.addMethod('findVideo', findVideo);
 
 app.use(bodyParser.json());
+app.use(cors());
 app.use(helmet());
 app.use(morgan('combined'));
 
