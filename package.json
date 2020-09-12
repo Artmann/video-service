@@ -18,7 +18,7 @@
     "helmet": "^3.21.1",
     "json-rpc-2.0": "^0.2.10",
     "morgan": "^1.9.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "node-html-parser": "^1.1.16",
     "showdown": "^1.9.0"
   },
